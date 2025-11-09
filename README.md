@@ -48,7 +48,7 @@ Usage
 
 To use this project, follow these steps:
 
-Clone the repository: https://github.com/SubashSK777/AI_Resume_Analyzer.git
+Clone the repository: https://github.com/Potri-17/SkillMatch-AI_Resume_Analyzer.git
 Install the required packages: pip install -r requirements.txt
 Run the Streamlit app: streamlit run app.py
 Access the app in your browser at http://localhost:8501
