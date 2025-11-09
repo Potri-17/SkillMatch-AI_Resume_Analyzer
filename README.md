@@ -1,4 +1,4 @@
-AI Resume Analyzer
+<h1> AI Resume Analyzer</h1
 
 Introduction
 
