@@ -1,35 +1,55 @@
-<h1> AI Resume Analyzer</h1
+<h1 align="center">🚀 <b>AI Resume Analyzer</b></h1>
 
-<h2>Introduction</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenAI-GPT--3.5-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Selenium-Automation-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
+</p>
 
-Developed an advanced AI application that utilizes LLM and OpenAI for comprehensive resume analysis. It excels at summarizing the resume, evaluating strengths, identifying weaknesses, and offering personalized improvement suggestions, while also recommending the perfect job titles. Additionally, it seamlessly employs Selenium to extract vital LinkedIn data, encompassing company names, job titles, locations, job URLs, and detailed job descriptions. This application simplifies the job-seeking journey by equipping users with comprehensive insights to elevate their career opportunities.
+---
 
+## 🧠 **Introduction**
 
-<h4>Table of Contents</h4>
+Developed an advanced **AI application** that utilizes **LLM** and **OpenAI** for comprehensive **resume analysis**.  
+It excels at **summarizing resumes**, **evaluating strengths**, **identifying weaknesses**, and offering **personalized improvement suggestions**, while also recommending **the perfect job titles**.  
 
-    1. Key Technologies and Skills
-    2.Installation
-    3.Usage
-Features
-Contributing
-License
-Contact
+Additionally, it seamlessly employs **Selenium** to extract vital **LinkedIn data**, such as **company names, job titles, locations, job URLs,** and **detailed job descriptions**.  
+This app simplifies the job-seeking journey by providing **deep, AI-driven insights** to enhance career opportunities.
 
-<h4>Key Technologies and Skills</h4>
-1.Python
-2.NumPy
-3.Pandas
-4.LangChain
-5.LLM
-6.OpenAI
-7.Selenium
-8.Streamlit
-9.Hugging Face
-10.AWS
+---
 
-<h4>Installation</h4>
+## 🧾 **Table of Contents**
+- [Key Technologies and Skills](#key-technologies-and-skills)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-<h4>To run this project, you need to install the following packages:</h4>
+---
+
+## 💻 **Key Technologies and Skills**
+- 🐍 Python  
+- 🔢 NumPy  
+- 📊 Pandas  
+- 🧩 LangChain  
+- 🤖 LLM (Large Language Models)  
+- 💬 OpenAI API  
+- 🌐 Selenium  
+- 🖥️ Streamlit  
+- 🤗 Hugging Face  
+- ☁️ AWS  
+
+---
+
+## ⚙️ **Installation**
+
+To run this project, install the following dependencies:
+
+```bash
 pip install numpy
 pip install pandas
 pip install streamlit
@@ -41,67 +61,3 @@ pip install openai
 pip install tiktoken
 pip install faiss-cpu
 pip install selenium
-
-Usage
-
-To use this project, follow these steps:
-
-Clone the repository: https://github.com/Potri-17/SkillMatch-AI_Resume_Analyzer.git
-Install the required packages: pip install -r requirements.txt
-Run the Streamlit app: streamlit run app.py
-Access the app in your browser at http://localhost:8501
-
-Features
-
-Easy User Experience:
-
-Resume Analyzer AI makes it easy for users. You can upload your resume and enter your OpenAI API key without any hassle. The application is designed to be user-friendly so that anyone can use its powerful resume analysis features.
-It also uses the PyPDF2 library to quickly extract text from your uploaded resume, which is the first step in doing a thorough analysis.
-Smart Text Analysis with Langchain:
-
-What makes it special is how it analyzes text. It uses a smart method called the Langchain library to break long sections of text from resumes into smaller chunks, making them more meaningful.
-This clever technique improves the accuracy of the resume analysis, and it gives users practical advice on how to enhance their job prospects.
-Enhanced OpenAI Integration with FAISS:
-
-Seamlessly connecting to OpenAI services, the application establishes a secure connection using your OpenAI API key. This integration forms the basis for robust interactions, facilitating advanced analysis and efficient information retrieval.
-It uses the FAISS(Facebook AI Similarity Search) library to convert both the text chunks and query text data into numerical vectors, simplifying the analysis process and enabling the retrieval of pertinent information.
-Intelligent Chunk Selection and LLM:
-
-Utilizing similarity search, Resume Analyzer AI compares the query and chunks, enabling the selection of the top 'K' most similar chunks based on their similarity scores.
-Simultaneously, the application creates an OpenAI object, particularly an LLM (Large Language Model), using the ChatGPT 3.5 Turbo model and your OpenAI API key.
-Robust Question-Answering Pipeline:
-
-This integration establishes a robust question-answering (QA) pipeline, making use of the load_qa_chain function, which encompasses multiple components, including the language model.
-The QA chain efficiently handles lists of input documents (docs) and a list of questions (chunks), with the response variable capturing the results, such as answers to the questions derived from the content within the input documents.
-Comprehensive Resume Analysis:
-
-Summary: Resume Analyzer AI provides a quick, comprehensive overview of resumes, emphasizing qualifications, key experience, skills, projects, and achievements. Users can swiftly grasp profiles, enhancing review efficiency and insight.
-Strength: Effortlessly conducting a comprehensive resume review, it analyzes qualifications, experience, and accomplishments. It subsequently highlights strengths, providing job seekers with a competitive edge.
-Weakness: AI conducts thorough analysis to pinpoint weaknesses and offers tailored solutions for transforming them into strengths, empowering job seekers.
-Suggestion: AI provides personalized job title recommendations that align closely with the user's qualifications and resume content, facilitating an optimized job search experience.
-
-🚀 Streamlit application: https://huggingface.co/spaces/Potriselvan17/AI_Resume_Analyzer
-
-
-Selenium-Powered LinkedIn Data Scraping:
-
-Utilizing Selenium and a Webdriver automated test tool, this feature enables users to input job titles, automating the data scraping process from LinkedIn. The scraped data includes crucial details such as company names, job titles, locations, URLs, and comprehensive job descriptions.
-This streamlined process enables users to easily review scraped job details and apply for positions, simplifying their job search and application experience.
-
-Contributing
-
-Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
-
-
-License
-
-This project is licensed under the MIT License. Please review the LICENSE file for more details.
-
-
-Contact
-
-📧 Email: potriselvan19@gmail.com
-
-🌐 LinkedIn: linkedin.com/in/Potriselvan17
-
-For any further questions or inquiries, feel free to reach out. We are happy to assist you with any queries.
