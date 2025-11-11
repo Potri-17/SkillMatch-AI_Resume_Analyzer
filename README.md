@@ -5,7 +5,7 @@
 Developed an advanced AI application that utilizes LLM and OpenAI for comprehensive resume analysis. It excels at summarizing the resume, evaluating strengths, identifying weaknesses, and offering personalized improvement suggestions, while also recommending the perfect job titles. Additionally, it seamlessly employs Selenium to extract vital LinkedIn data, encompassing company names, job titles, locations, job URLs, and detailed job descriptions. This application simplifies the job-seeking journey by equipping users with comprehensive insights to elevate their career opportunities.
 
 
-<h2>Table of Contents</h2>
+<h4>Table of Contents</h4>
 
     1. Key Technologies and Skills
     2.Installation
@@ -15,21 +15,21 @@ Contributing
 License
 Contact
 
-<h2>Key Technologies and Skills</h2>
-Python
-NumPy
-Pandas
-LangChain
-LLM
-OpenAI
-Selenium
-Streamlit
-Hugging Face
-AWS
+<h4>Key Technologies and Skills</h4>
+1.Python
+2.NumPy
+3.Pandas
+4.LangChain
+5.LLM
+6.OpenAI
+7.Selenium
+8.Streamlit
+9.Hugging Face
+10.AWS
 
-<h2>Installation</h2>
+<h4>Installation</h4>
 
-<h2>To run this project, you need to install the following packages:</h2>
+<h4>To run this project, you need to install the following packages:</h4>
 pip install numpy
 pip install pandas
 pip install streamlit
