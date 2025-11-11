@@ -10,7 +10,7 @@
 Developed an advanced **AI application** that utilizes **LLM** and **OpenAI** for comprehensive **resume analysis**.  
 It excels at **summarizing resumes**, **evaluating strengths**, **identifying weaknesses**, and offering **personalized improvement suggestions**, while also recommending **the perfect job titles**.  
 
-Additionally, it seamlessly employs **Selenium** to extract vital **LinkedIn data**, such as **company names, job titles, locations, job URLs,** and **detailed job descriptions**.  
+Additionally, it seamlessly employs **Selenium** to extract vital **LinkedIn data**, such as **company names, job titles, locations, job URLs,** and **detailed job descriptions**.   
 This app simplifies the job-seeking journey by providing **deep, AI-driven insights** to enhance career opportunities.
 
 ---
