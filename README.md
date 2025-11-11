@@ -57,75 +57,67 @@ pip install tiktoken
 pip install faiss-cpu
 pip install selenium
 
-## 🚀 Usage
+## Usage
 
 To use this project, follow these steps:
 
-1. Clone the repository:  
-   `https://github.com/SubashSK777/AI_Resume_Analyzer.git`
-2. Install required packages:  
-   `pip install -r requirements.txt`
-3. Run the Streamlit app:  
-   `streamlit run app.py`
-4. Access the app in your browser at  
-   `http://localhost:8501`
+1. Clone the repository: `https://github.com/Potri_17/AI_Resume_Analyzer.git`
+2. Install the required packages: `pip install -r requirements.txt`
+3. Run the Streamlit app: `streamlit run app.py`
+4. Access the app in your browser at `http://localhost:8501`
 
----
+## Features
 
-## 🧩 Features
+### Easy User Experience:
 
-### 💡 Easy User Experience
-- Resume Analyzer AI makes it simple for users to upload their resume and enter the OpenAI API key.
-- Uses **PyPDF2** to extract text quickly from uploaded resumes.
+- Resume Analyzer AI makes it easy for users. You can upload your resume and enter your OpenAI API key without any hassle. The application is designed to be user-friendly so that anyone can use its powerful resume analysis features.  
+- It also uses the PyPDF2 library to quickly extract text from your uploaded resume, which is the first step in doing a thorough analysis.  
 
-### 🧠 Smart Text Analysis with Langchain
-- Uses **Langchain** to chunk text and analyze resumes more accurately.
-- Gives practical insights to improve job prospects.
+### Smart Text Analysis with Langchain:
 
-### 🔗 Enhanced OpenAI Integration with FAISS
-- Uses **FAISS (Facebook AI Similarity Search)** to match resume chunks and queries efficiently.
-- Ensures a smooth connection to OpenAI services via your API key.
+- What makes it special is how it analyzes text. It uses a smart method called the Langchain library to break long sections of text from resumes into smaller chunks, making them more meaningful.  
+- This clever technique improves the accuracy of the resume analysis, and it gives users practical advice on how to enhance their job prospects.  
 
-### 🤖 Intelligent Chunk Selection and LLM
-- Selects the most relevant chunks for better results.
-- Uses **ChatGPT 3.5 Turbo** for language model processing.
+### Enhanced OpenAI Integration with FAISS:
 
-### 💬 Robust Question-Answering Pipeline
-- Employs a **QA chain** to handle complex input docs and extract answers effectively.
+- Seamlessly connecting to OpenAI services, the application establishes a secure connection using your OpenAI API key. This integration forms the basis for robust interactions, facilitating advanced analysis and efficient information retrieval.  
+- It uses the FAISS(Facebook AI Similarity Search) library to convert both the text chunks and query text data into numerical vectors, simplifying the analysis process and enabling the retrieval of pertinent information.  
 
-### 📊 Comprehensive Resume Analysis
-- **Summary:** Gives an overview of qualifications and projects.  
-- **Strength:** Highlights key skills and achievements.  
-- **Weakness:** Points out improvement areas.  
-- **Suggestion:** Provides job title recommendations.
+### Intelligent Chunk Selection and LLM:
 
----
+- Utilizing similarity search, Resume Analyzer AI compares the query and chunks, enabling the selection of the top 'K' most similar chunks based on their similarity scores.  
+- Simultaneously, the application creates an OpenAI object, particularly an LLM (Large Language Model), using the ChatGPT 3.5 Turbo model and your OpenAI API key.  
 
-## 🌐 Streamlit Application
-👉 [Launch Here](https://huggingface.co/spaces/SubashSK777/AI_Resume_Analyzer)
+### Robust Question-Answering Pipeline:
 
----
+- This integration establishes a robust question-answering (QA) pipeline, making use of the load_qa_chain function, which encompasses multiple components, including the language model.  
+- The QA chain efficiently handles lists of input documents (docs) and a list of questions (chunks), with the response variable capturing the results, such as answers to the questions derived from the content within the input documents.  
 
-## 🕸️ Selenium-Powered LinkedIn Data Scraping
-- Uses **Selenium WebDriver** for automated job title and description scraping.
-- Helps users easily analyze scraped job details.
+### Comprehensive Resume Analysis:
 
----
+- **Summary:** Resume Analyzer AI provides a quick, comprehensive overview of resumes, emphasizing qualifications, key experience, skills, projects, and achievements. Users can swiftly grasp profiles, enhancing review efficiency and insight.  
+- **Strength:** Effortlessly conducting a comprehensive resume review, it analyzes qualifications, experience, and accomplishments. It subsequently highlights strengths, providing job seekers with a competitive edge.  
+- **Weakness:** AI conducts thorough analysis to pinpoint weaknesses and offers tailored solutions for transforming them into strengths, empowering job seekers.  
+- **Suggestion:** AI provides personalized job title recommendations that align closely with the user's qualifications and resume content, facilitating an optimized job search experience.  
 
-## 🤝 Contributing
-Contributions are welcome!  
-Feel free to open an issue or submit a pull request.
+**🚀 Streamlit application:** [https://huggingface.co/spaces/Potriselvan17/AI_Resume_Analyzer](https://huggingface.co/spaces/potriselvan17/AI_Resume_Analyzer)
 
----
+### Selenium-Powered LinkedIn Data Scraping:
 
-## ⚖️ License
-Licensed under the **MIT License**.  
-Check the LICENSE file for more info.
+- Utilizing Selenium and a Webdriver automated test tool, this feature enables users to input job titles, automating the data scraping process from LinkedIn. The scraped data includes crucial details such as company names, job titles, locations, URLs, and comprehensive job descriptions.  
+- This streamlined process enables users to easily review scraped job details and apply for positions, simplifying their job search and application experience.  
 
----
+## Contributing
 
-## 📫 Contact
-📧 Email: [subashk11831@gmail.com](mailto:subashk11831@gmail.com)  
-💼 LinkedIn: [linkedin.com/in/subashsk777](https://linkedin.com/in/subashsk777)
+Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.  
 
----
+## License
+
+This project is licensed under the MIT License. Please review the LICENSE file for more details.  
+
+## Contact
+
+📧 Email: [potriselvan19@gmail.com](mailto:potriselvan19@gmail.com)  
+💼 LinkedIn: [linkedin.com/in/potriselvan17](https://linkedin.com/in/potriselvan17)  
+
+For any further questions or inquiries, feel free to reach out. We are happy to assist you with any queries.  
